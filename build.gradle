@@ -25,9 +25,14 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'dev.langchain4j:langchain4j:0.27.1'
+	implementation 'dev.langchain4j:langchain4j-open-ai:0.27.1'
+	implementation 'me.paulschwarz:spring-dotenv:4.0.0'
+	implementation 'com.github.JorenSix:Pianote:0.6'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
